@@ -1,10 +1,5 @@
-const { Command } = require('commander');
-const program = new Command();
+#!/usr/bin/env node
 
-program.name('gendiff');
+import genDiff from '../src/index.js';
 
-program
-  .description('Compares two configuration files and shows a difference.')
-  .option('-V, --version', 'output the version number', ',');
-
-program.parse();
+genDiff();
