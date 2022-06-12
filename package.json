@@ -1,0 +1,22 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "difference generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le9i0n2/frontend-project-lvl2.git"
+  },
+  "author": "Vasiliy Dontzov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Le9i0n2/frontend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/Le9i0n2/frontend-project-lvl2#readme",
+  "dependencies": {
+    "commander": "^9.3.0"
+  }
+}
