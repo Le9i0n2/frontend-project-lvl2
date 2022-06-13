@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "description": "difference generator",
   "bin": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Le9i0n2/frontend-project-lvl2#readme",
   "dependencies": {
-    "commander": "^9.3.0"
+    "commander": "^9.3.0",
+    "lodash": "^4.17.21"
   }
 }
