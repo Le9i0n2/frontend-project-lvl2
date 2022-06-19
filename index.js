@@ -13,7 +13,7 @@ const readFile = (filepath) => {
   return data;
 };
 
-export default (filepath1, filepath2) => {
+const genDiff = (filepath1, filepath2) => {
   const data1 = JSON.parse(readFile(filepath1));
   const data2 = JSON.parse(readFile(filepath2));
   const keys = _.union(_.keys(data1), _.keys(data2)).sort();
@@ -52,3 +52,5 @@ export default (filepath1, filepath2) => {
   const diffString = diff.join('\n');
   return diffString;
 };
+
+export { genDiff };
