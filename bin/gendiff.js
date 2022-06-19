@@ -13,6 +13,9 @@ program
   .argument('<filepath2>')
   .helpOption('-h, --help', 'output usage information')
   .option('-V, --version', 'output the version number')
-  .option('-f, --format <type>', 'output format');
+  .option('-f, --format <type>', 'output format')
+  .action((filepath1, filepath2) => {
+    console.log(genDiff(filepath1, filepath2));
+  });
 
 program.parse();
