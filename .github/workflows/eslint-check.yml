@@ -1,0 +1,19 @@
+name: eslint-check
+
+on: [push]
+
+jobs:
+  perform-eslint-check:
+    runs-on: ubuntu-latest
+    steps:
+      # Check-out repository under GitHub workspace
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        # Install required modules
+      - name: Install eslint
+        run: npm install eslint
+      - name: Install eslint-config-airbnb-base
+        run: npm install eslint-config-airbnb-base
+        # Perform ESLint repository check
+      - name: Run eslint check
+        run: make lint
