@@ -2,8 +2,6 @@
 
 import _ from 'lodash';
 import * as fs from 'node:fs';
-import process from 'node:process';
-import path from 'node:path';
 
 // this function opens file, read it, close file and returns data from it
 const readFile = (filepath) => {
@@ -53,4 +51,4 @@ const genDiff = (filepath1, filepath2) => {
   return diffString;
 };
 
-export { genDiff };
+export default genDiff;
