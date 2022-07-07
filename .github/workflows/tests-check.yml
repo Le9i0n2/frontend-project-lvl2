@@ -1,0 +1,19 @@
+name: tests-check
+
+on: [push]
+
+jobs:
+  perform-tests-check:
+    runs-on: ubuntu-latest
+    steps:
+      # Check-out repository under GitHub workspace
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        # Install required modules
+      - name: Install jest
+        run: npm install jest
+      - name: Install @jest/globals
+        run: npm install @jest/globals
+        # Perform ESLint repository check
+      - name: Run tests
+        run: make test
