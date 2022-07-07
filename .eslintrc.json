@@ -11,6 +11,7 @@
   },
   "rules": {
     "no-console": "off",
-    "import/extensions": ["error", "ignorePackages", { "js": "always" }]
+    "import/extensions": ["error", "ignorePackages", { "js": "always" }],
+    "no-underscore-dangle": [2, { "allow": ["__filename", "__dirname"] }]
   }
 }
