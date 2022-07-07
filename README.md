@@ -5,6 +5,7 @@
 # gendiff
 
 [![eslint-check](https://github.com/Le9i0n2/frontend-project-lvl2/actions/workflows/eslint-check.yml/badge.svg?branch=main&event=push)](https://github.com/Le9i0n2/frontend-project-lvl2/actions/workflows/eslint-check.yml)
+[![tests-check](https://github.com/Le9i0n2/frontend-project-lvl2/actions/workflows/tests-check.yml/badge.svg?branch=main&event=push)](https://github.com/Le9i0n2/frontend-project-lvl2/actions/workflows/tests-check.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/2b05d893ad20b17b9fc6/maintainability)](https://codeclimate.com/github/Le9i0n2/frontend-project-lvl2/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2b05d893ad20b17b9fc6/test_coverage)](https://codeclimate.com/github/Le9i0n2/frontend-project-lvl2/test_coverage)
 
