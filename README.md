@@ -11,4 +11,4 @@
 
 ### genDiff asciinema:
 
-[![asciicast](https://asciinema.org/a/x80Jj6D7XU8cZKyFN79iCGjfI.svg)](https://asciinema.org/a/x80Jj6D7XU8cZKyFN79iCGjfI)
+[![asciicast](https://asciinema.org/a/0HnujIVFZI2boFEvTzbebl5gu.svg)](https://asciinema.org/a/0HnujIVFZI2boFEvTzbebl5gu)
